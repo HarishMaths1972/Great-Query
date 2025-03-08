@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import json
-import plotly.graph_objects as go
 from prompts import instructions,suffix
 from file_utils import save
 from setup import page_setup
