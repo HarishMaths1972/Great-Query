@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#1E88E5"  # Strong professional blue for highlights
+backgroundColor = "#E3F2FD"  # Light blue-gray for a soft background
+secondaryBackgroundColor = "#FFFFFF"  # White for widgets and containers
+textColor = "#0D47A1"  # Deep navy blue for text
+font = "sans serif"
