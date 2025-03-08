@@ -45,7 +45,4 @@ if 'agent' in st.session_state:
 query = st.text_input("Enter your query")
 
 if query and 'agent' in st.session_state:
-    try:
-        response = agent.invoke({"input":query+"\n"+suffix})
-    except:
-        st.info("Unable to process")
+    response = agent.invoke({"input":query+"\n"+suffix})
